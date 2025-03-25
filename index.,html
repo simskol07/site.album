@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Álbum de Fotos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>Álbum de Fotos</h1>
+<nav>
+<ul>
+<li><a href="#" onclick="showGallery('meninas')">Meninas</a></li>
+<li><a href="#" onclick="showGallery('meninos')">Meninos</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<div id="gallery-container">
+<h2>Selecione uma categoria</h2>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
